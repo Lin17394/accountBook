@@ -4,20 +4,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <!--随菜单的切换，显示对应的菜单名称，注释掉，该功能不用显示-->
-    <!--<RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:background="@color/blue">
-        <TextView
-            android:id="@+id/title"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:text="@string/detail_tab"
-            android:textColor="@android:color/white"
-            android:textSize="20sp"/>
-    </RelativeLayout>-->
 
     <LinearLayout
         android:layout_width="fill_parent"
