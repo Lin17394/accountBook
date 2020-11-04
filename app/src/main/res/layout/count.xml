@@ -13,7 +13,7 @@
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:layout_weight="3"
-            android:text="1999年"
+            android:text="2019年"
             android:textColor="@android:color/black"
             android:textSize="18dp"/>
         <TextView
