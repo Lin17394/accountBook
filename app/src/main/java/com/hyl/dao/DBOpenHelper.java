@@ -5,15 +5,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.database.sqlite.SQLiteDatabase.CursorFactory;
 
-/**
- * @programName: DBOpenHelper.java
- * @programFunction: database helper class
- * @createDate: 2018/09/19
- * @author: AnneHan
- * @version:
- * xx.   yyyy/mm/dd   ver    author    comments
- * 01.   2018/09/19   1.00   AnneHan   New Create
- */
+
 public class DBOpenHelper extends SQLiteOpenHelper {
     public DBOpenHelper(Context context,String name, CursorFactory factory,
                         int version){

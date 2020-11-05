@@ -9,15 +9,7 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Toast;
 
-/**
- * @programName: MainActivity.java
- * @programFunction: the home page
- * @createDate: 2018/09/19
- * @author: AnneHan
- * @version:
- * xx.   yyyy/mm/dd   ver    author    comments
- * 01.   2018/09/19   1.00   AnneHan   New Create
- */
+
 public class MainActivity extends AppCompatActivity {
 
     //第一次点击事件发生的时间
@@ -25,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     private CircleMenuLayout mCircleMenuLayout;
 
-    private String[] mItemTexts = new String[] { "登录&注册", "关于我们", "心愿墙",
+    private String[] mItemTexts = new String[] { "登录&注册", "Me", "Wish",
             "特色设置", "收入&支出", "统计" };
     private int[] mItemImgs = new int[] { R.mipmap.home_mbank_1_normal,
             R.mipmap.home_mbank_2_normal, R.mipmap.home_mbank_3_normal,

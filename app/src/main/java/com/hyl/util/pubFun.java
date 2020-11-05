@@ -7,21 +7,8 @@ import java.util.Date;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/**
- * @programName: pubFun.java
- * @programFunction: public function
- * @createDate: 2018/09/19
- * @author: AnneHan
- * @version:
- * xx.   yyyy/mm/dd   ver    author    comments
- * 01.   2018/09/19   1.00   AnneHan   New Create
- */
 public class pubFun {
-    /**
-     * check string is empty
-     * @param input
-     * @return
-     */
+
     public static boolean isEmpty( String input )
     {
         if ( input == null || "".equals( input ) )
@@ -60,12 +47,7 @@ public class pubFun {
         return isValid;
     }
 
-    /**
-     * 获取当前年月日
-     * 输出的值为System.out: 月：8 ##年：2018 ##日：20 ##时：11（其中输出的月份的值是实际月份-1）
-     * @param strFlag
-     * @return
-     */
+
     public static Integer getTime(String strFlag){
         Time t = new Time(); // or Time t=new Time("GMT+8"); 加上Time Zone资料
         t.setToNow(); // 取得系统时间
