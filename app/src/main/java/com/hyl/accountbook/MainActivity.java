@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     //第一次点击事件发生的时间
     private long mExitTime;
 
-    private CircleMenuLayout mCircleMenuLayout;
+    private CircleMenuLayout mCircleMenuLayout;//
 
     private String[] mItemTexts = new String[] { "登录&注册", "Me", "Wish",
             "特色设置", "收入&支出", "统计" };
