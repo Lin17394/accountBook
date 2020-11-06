@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent=new Intent();
         intent.setClass(MainActivity.this, AboutUsActivity.class);
         this.startActivity(intent);
-    }
+    }//
 
     /**
      * 点击两次返回退出app
