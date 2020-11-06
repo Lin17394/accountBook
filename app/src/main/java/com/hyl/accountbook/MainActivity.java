@@ -42,9 +42,9 @@ public class MainActivity extends AppCompatActivity {
                     openLoginWind(view);
                 } else if (mItemTexts[pos] == "统计") {
                     openCountWind(view);
-                } else if (mItemTexts[pos] == "关于我们") {
+                } else if (mItemTexts[pos] == "Me") {
                     openAboutUsAddWind(view);
-                } else if (mItemTexts[pos] == "心愿墙") {
+                } else if (mItemTexts[pos] == "Wish") {
                     openWishWind(view);
                 }
                 ;
